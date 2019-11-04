@@ -1,0 +1,14 @@
+<div class="container">
+<h1>your score</h1>
+  <div class="message">
+    <p>
+    <%= @result[:message]%>.
+    </p>
+
+    <p> Your score is
+       <%= @result[:score]%>.
+    </p>
+    <%= link_to "Play again", new_path, class: "link" %>
+  </div>
+
+</div>
